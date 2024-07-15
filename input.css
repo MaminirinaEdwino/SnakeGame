@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-blue-800
+}
+header{
+    @apply w-fit text-white text-3xl m-auto p-1 font-semibold
+}
+#plateau{
+    @apply border m-auto bg-blue-500
+}
+footer{
+    @apply absolute bottom-0 text-center w-full text-white
+}
+section{
+    @apply m-auto w-fit grid grid-cols-3 gap-1
+}
+button{
+    @apply block w-20 h-10 rounded-lg bg-blue-500 hover:bg-blue-800 text-white font-semibold transition-all duration-200 
+}
+.score{
+    @apply w-fit m-auto p-2 text-white
+}
+#gameOver{
+    @apply w-fit m-auto text-white font-semibold text-2xl
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake game</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <header>Snake</header>
+    <div id="gameOver" style="display: none;">Game Over</div>
+    <canvas id="plateau" width="400" height="400"></canvas>
+    <div class="score">Score : <span id="score">0</span></div>
+    <section>
+        <button onclick="start()" id="start">Start</button>
+        <button onclick="setDirection('H')">Haut</button>
+        <button id="reset" onclick="reset()">Reset</button>
+        <button onclick="setDirection('G')">Gauche</button>
+        <button onclick="setDirection('B')">Bas</button>
+        <button onclick="setDirection('D')">Droite</button>
+    </section>
+    
+    <script src="script.js" >
+        
+    </script>
+</body>
+</html>
